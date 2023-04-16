@@ -1,0 +1,98 @@
+.movies-list {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movies-list img{
+  width: 90%;
+  box-shadow: 1px 1px 5px (0,0,0,0.4);
+}
+
+
+/* .pageManager button{
+  background-color: #454c5a;
+  margin: 20px 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.pageManager {
+  background-color: #282c34;
+} */
+
+body {
+  color: white;
+  background: #282c34;
+  max-width: 80%;
+  margin: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.App-header button{
+  width: 100w;
+  height: 70px;
+  font-size: 30px;
+  background-color: #454c5a;
+  color: white;
+  margin: 5px 120px;
+}
+
+.App-header input {
+  width: 80vw;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  margin: 0px 10vw;
+  position: absolute;
+  background-color: #454c5a;
+  color: white;
+}
+
+.inputText {
+  height: 20px;
+  position: relative;
+}
+
+.button {
+  font-size: 100%;
+  background-color: #bcb315;
+}
+
+/* .movies {
+  background-color: #282c34;
+  height: 93.45vh;
+} */
+
+/* .movies input {
+  background-color: #454c5a;
+  height: 30px;
+  float: center;
+  padding: 10px 10px;
+  margin: 10px 40px;
+  color: white;
+  text-align: center;
+  float: right;
+} */
+
+input {
+  background-color: transparent;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+}
