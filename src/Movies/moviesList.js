@@ -3,9 +3,9 @@ import { Movie } from "./movie";
 import { Filter } from "../filter";
 
 const API_URL = 
-'/api/discover/movie?language=us_EN&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_original_language=ja'
+'/api/discover/movie'
 const CONFIG_URL =
-'/api/configuration?' 
+'/api/configuration' 
 
 export function MoviesList() {
     const [filter, setFilter] = useState("")
