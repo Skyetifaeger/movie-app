@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Link } from 'react-router-dom';
 
 const BASE_URL = "/api/movie/"
-const API_KEY = "?api_key="
 const IMAGE_URL = "https://image.tmdb.org/t/p/"
 const BACKDROP_SIZE = "original"
 const POSTER_SIZE = "original"
@@ -24,6 +22,7 @@ export function MovieDetail() {
 
     useEffect(() => {
         getMovie()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [id])
 
     if (!movie.title) return null
